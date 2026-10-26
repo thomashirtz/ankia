@@ -1,0 +1,3 @@
+_target_: ankia.llm.client.GeminiClient
+model: gemini-3.8-flash
+abbreviation: gemini_flash

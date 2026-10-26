@@ -1,0 +1,9 @@
+from pathlib import Path
+
+CURRENT_FILE_PATH = Path(__file__).resolve()
+REPOSITORY_PATH = CURRENT_FILE_PATH.parent.parent.parent
+DATA_DIRECTORY = REPOSITORY_PATH / "data"
+INBOX_PATH = DATA_DIRECTORY / "inbox.txt"
+RUNS_DIRECTORY = DATA_DIRECTORY / "runs"
+DECK_DIRECTORY = DATA_DIRECTORY / "deck"
+CONFIG_PATH = REPOSITORY_PATH / "configs"

@@ -1,0 +1,21 @@
+defaults:
+  - llm: gemini_flash
+  - hydra: disabled
+  - _self_
+
+inbox: data/inbox.txt
+
+runtime:
+  extract_chunk_chars: 12000
+  construct_resume: true
+
+# After a successful generate run (Anki must be open if either is true):
+#   python -m pipelines.main anki.export=true anki.sync=true
+anki:
+  export: false          # push this run's cards into Anki
+  sync: false            # AnkiConnect sync to AnkiWeb (after export if both set)
+  deck_name: ankia
+  model_name: Zhongwen
+  url: http://127.0.0.1:8765
+
+

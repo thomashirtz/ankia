@@ -1,0 +1,30 @@
+{
+  "modelName": "Zhongwen",
+  "inOrderFields": [
+    "Simplified",
+    "SimplifiedColored",
+    "Traditional",
+    "TraditionalColored",
+    "Pinyin",
+    "Meaning",
+    "Hint",
+    "SentenceSimplified",
+    "SentenceSimplifiedColored",
+    "SentenceMeaning",
+    "SentencePinyin",
+    "Synonyms",
+    "SynonymsColored",
+    "DictionarySimplified",
+    "DictionarySimplifiedColored",
+    "DictionaryPinyin",
+    "DictionaryMeaning"
+  ],
+  "css": "styling.css",
+  "cardTemplates": [
+    {
+      "Name": "English > Chinese",
+      "Front": "english_to_chinese/front.html",
+      "Back": "english_to_chinese/back.html"
+    }
+  ]
+}

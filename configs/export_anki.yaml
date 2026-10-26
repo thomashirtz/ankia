@@ -1,0 +1,8 @@
+# Defaults for Anki export (CLI: python -m pipelines.export_anki <run_id>).
+# Override on the command line with --deck / --model / --url.
+
+deck_name: ankia
+model_name: Zhongwen
+anki_url: http://127.0.0.1:8765
+chunk_size: 50
+
